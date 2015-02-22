@@ -1916,7 +1916,7 @@ public class GriefPrevention extends JavaPlugin
 		    this.loadConfig();
 		    if(player != null)
 		    {
-		        GriefPrevention.sendMessage(player, TextMode.Success, "Configuration updated.  If you have updated your Grief Prevention JAR, you still need to /reload or reboot your server.");
+		        GriefPrevention.sendMessage(player, TextMode.Success, "Конфигурация обновлена. Если вы обновили JAR, все еще неободим /reload или рестарт сервера.");
 		    }
 		    else
 		    {

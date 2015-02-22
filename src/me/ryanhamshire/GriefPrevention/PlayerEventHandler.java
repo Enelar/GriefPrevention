@@ -499,7 +499,7 @@ class PlayerEventHandler implements Listener
     				{
     					//DAS BOOT!
     					event.setResult(Result.KICK_OTHER);				
-    					event.setKickMessage("You must wait " + cooldownRemaining + " seconds before logging-in again.");
+    					event.setKickMessage("Остыньте. Подождите " + cooldownRemaining + " секунд перед следующей попыткой.");
     					event.disallow(event.getResult(), event.getKickMessage());
     					return;
     				}
